@@ -1,0 +1,130 @@
+/* CUSTOM RULES */
+.wrapper  {
+  max-width: 1312px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 2px 26px rgba(0,31,63,.14);
+  border-radius: 4px;
+  border: 2px solid #00b853;
+  background: #00cc5c;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 600;
+  padding: 16px 22px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #fff;
+  box-shadow: 0 6px 16px -3px rgba(0,31,63,.15);
+  border-color: #00c257;
+  background: #00d660;
+  text-decoration: underline;
+}
+.btn.btn-white {
+  border: 2px solid #7fbfff;
+  background: #fff;
+  color: #0080ff;
+  box-shadow: none;
+}
+.btn.btn-white:hover {
+  border-color: #0080ff;
+}
+/* END CUSTOM RULES */
+
+.h, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'AvenirNext-bold';
+  font-weight: 700;
+  margin: 0 0 .5em;
+  color: inherit;
+}
+.h1, h1 {
+  font-size: 36px;
+  line-height: 1.22;
+  margin-bottom: 24px;
+}
+@media (min-width: 768px) {
+  .h, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-size: 48px;
+    line-height: 1.21;
+    margin-bottom: 25px; 
+  }
+}
+
+* {
+  max-height: 1000000px;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0;
+}
+a {
+  background-color: rgba(0,0,0,0);
+}
+a {
+  transition: color .3s ease-in-out,background .3s ease-in-out,opacity .3s ease-in-out,visibility .3s ease-in-out,border .3s ease-in-out,box-shadow .3s ease-in-out;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  border: 0;
+  height: auto;
+  vertical-align: top;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: block;
+}
+body {
+  display: block;
+  color: var(--black);
+  background: var(--white);
+  margin: 0;
+  font: 16px/1.75 'AvenirNext';
+  min-width: 320px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'AvenirNext';
+  src: url('~assets/fonts/AvenirNextLTPro-Regular.eot');
+  src: url('~assets/fonts/AvenirNextLTPro-Regular.eot#iefix') format('embedded-opentype'),
+  url('~assets/fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),
+  url('~assets/fonts/AvenirNextLTPro-Regular.woff') format('woff'),
+  url('~assets/fonts/AvenirNextLTPro-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'AvenirNext-bold';
+  src: url('~assets/fonts/AvenirNextLTPro-Bold.eot');
+  src: url('~assets/fonts/AvenirNextLTPro-Bold.eot#iefix') format('embedded-opentype'),
+  url('~assets/fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),
+  url('~assets/fonts/AvenirNextLTPro-Bold.woff') format('woff'),
+  url('~assets/fonts/AvenirNextLTPro-Bold.ttf') format('ttf');
+}
+
+:root {
+  --black: #001F3F;
+  --white: #fff;
+  --blue: #0080ff;
+  --light-blue:#7fbfff;
+  --background-blue: #ebf2fa; 
+  --green: #00cc5c;
+  --dark-green: #00b853;
+}
