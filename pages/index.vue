@@ -1,6 +1,5 @@
 <template>
   <div class="wrapper">
-    <globalHeader />
     <main class="main">
       <section class="intro-section">
       </section>
@@ -9,13 +8,8 @@
 </template>
 
 <script>
-import globalHeader from '@/components/header'
-
 export default {
-  layout: 'default',
-  components: {
-    globalHeader
-  }
+  layout: 'default'
 }
 </script>
 
