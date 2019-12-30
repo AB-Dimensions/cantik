@@ -3,6 +3,9 @@
 ## Build Setup
 
 ``` bash
+# install yarn locally
+$ https://yarnpkg.com
+
 # install dependencies
 $ yarn install
 
@@ -16,7 +19,3 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-ies": {
-    "@nuxtjs/pwa": "^3.0.0-0",
